@@ -63,5 +63,4 @@ Be Smart With Smart Class
 ### **PPT Generator**
 ![Book Recommender](hhttps://github.com/GAUTAMSINGH102/Assembly-AI-Hackathon/blob/main/WebsiteImages/pptgenerator.png)
 
-<!-- https://github.com/GAUTAMSINGH102/Assembly-AI-Hackathon/blob/main/WebsiteImages/pptgenerator.png -->
 
