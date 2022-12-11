@@ -1,6 +1,6 @@
 import cohere 
 from cohere.classify import Example 
-API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
+API_KEY = ''
 co = cohere.Client(API_KEY)
 
 inputs=["what is Data Mining", "How to find the face embedding using transfer learning"]
