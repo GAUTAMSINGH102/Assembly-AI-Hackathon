@@ -57,3 +57,11 @@ Be Smart With Smart Class
 ### **Book Recommender**
 ![Book Recommender](https://github.com/GAUTAMSINGH102/SmartClass/blob/main/WebsiteImages/bookrecommender.png)
 
+### **Question & Answer**
+![Book Recommender](https://github.com/GAUTAMSINGH102/Assembly-AI-Hackathon/blob/main/WebsiteImages/qa2.png)
+
+### **PPT Generator**
+![Book Recommender](hhttps://github.com/GAUTAMSINGH102/Assembly-AI-Hackathon/blob/main/WebsiteImages/pptgenerator.png)
+
+<!-- https://github.com/GAUTAMSINGH102/Assembly-AI-Hackathon/blob/main/WebsiteImages/pptgenerator.png -->
+
