@@ -16,7 +16,7 @@ import textwrap
 # Answer: There are four types of machine learning algorithms: supervised, semi-supervised, unsupervised and reinforcement.
         
 
-API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
+API_KEY = ''
 co = cohere.Client(API_KEY)
 
 def generate_answer(questionData):
