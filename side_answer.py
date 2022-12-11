@@ -4,7 +4,7 @@ import streamlit as st
 import cohere
 import textwrap
 
-API_KEY = 'j9fltyvpID3YyH82yoUqSCjhcydpMh1vG3lLS83z'
+API_KEY = ''
 co = cohere.Client(API_KEY)
 
 def side_answer_func(phrase, context):
