@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Question & Answer</title>
+    <link rel="stylesheet" href="static/css/qa.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <form>
+                <div class="phrase">
+                    <p class="Title">Phrase</p>
+                    <input id="phraseText" type="text" placeholder="Phrase"></input>
+                </div>
+                <div class="context">
+                    <p class="Title">Context</p>
+                    <input id="contextText" type="text" placeholder="Context"></input>
+                </div>
+                <div>
+                    <button id="sideSubmit" class="sidesubmit" type="submit">Submit</button>
+                </div>
+                <div class="sideans">
+                    <p class="Title">Answer</p>
+                    <p id="sideAns" class="sideAns"></p>
+                </div>
+            </form>
+        </div>
+        <div class="queans">
+            <h1 class="Title">Question & Answer</h1>
+            <div id="queansCards" class="queanscards">
+                {% for item in arr %}
+                <div class="card">
+                    <img src="{{item[3]}}">
+                    <h3 class="q">{{item[0]}}</h3>
+                    <p class="qclassify">{{item[2]}}</p>
+                    <p class="ans">{{item[1]}}</p>
+                </div>
+                {%endfor%}
+
+                <!-- <div class="card">
+                    <img src="../static/images/coder.jpg">
+                    <h3 class="q">What is Machine Learning?</h3>
+                    <p class="qclassify">Basic</p>
+                    <p class="ans">Machine learning is a branch of artificial intelligence (AI) and computer science
+                        which focuses on the use of data and algorithms to imitate the way that humans learn, gradually
+                        improving its accuracy.</p>
+                </div>
+                <div class="card">
+                    <img src="../static/images/coder.jpg">
+                    <h3 class="q">How Data should be cleaned before providing it to Algorithm?</h3>
+                    <p class="qclassify">Very Important</p>
+                    <p class="ans">Data cleaning is the process of fixing or removing incorrect, corrupted, incorrectly
+                        formatted, duplicate, or incomplete data within a dataset. When combining multiple data sources,
+                        there are many opportunities for data to be duplicated or mislabeled.</p>
+                </div>
+                <div class="card">
+                    <img src="../static/images/coder.jpg">
+                    <h3 class="q">Which Algorithm are there in Machine Learning?</h3>
+                    <p class="qclassify">Important</p>
+                    <p class="ans">There are four types of machine learning algorithms: supervised, semi-supervised,
+                        unsupervised and reinforcement.</p>
+                </div> -->
+            </div>
+        </div>
+    </div>
+
+    <script src="static/js/qa.js"></script>
+</body>
+
+</html>

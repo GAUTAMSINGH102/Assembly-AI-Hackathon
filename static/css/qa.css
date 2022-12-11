@@ -1,0 +1,181 @@
+@font-face {
+  font-family: AvenirLTStd-Book;
+  src: url(..fonts/AvenirLTStd-Book.woff) format("woff"), url(../fonts/AvenirLTStd-Book.woff) format("woff");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AvenirLTStd-Medium;
+  src: url(../fonts/AvenirLTStd-Medium.woff) format("woff"), url(../fonts/AvenirLTStd-Medium.woff) format("woff");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AvenirLTStd-Heavy;
+  src: url(../fonts/AvenirLTStd-Heavy.woff) format("woff"), url(../fonts/AvenirLTStd-Heavy.woff) format("woff");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: AvenirLTStd-Roman;
+  src: url(../fonts/AvenirLTStd-Roman.woff) format("woff"), url(../fonts/AvenirLTStd-Roman.woff) format("woff");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ITCAvantGardePro-Bk;
+  src: url(../fonts/ITCAvantGardePro-Bk.otf) format("opentype");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ITCAvantGardePro;
+  src: url(../fonts/ITCAvantGardePro-Bold.otf) format("opentype");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ITCAvantGardePro-Md;
+  src: url(../fonts/ITCAvantGardePro-Md.otf) format("opentype");
+  font-style: normal;
+  font-display: swap
+}
+
+@font-face {
+  font-family: ITCAvantGardePro-Demi;
+  src: url(../fonts/ITCAvantGardePro-Demi.otf) format("opentype");
+  font-style: normal;
+  font-display: swap
+}
+
+:root {
+  margin: 0px;
+  padding: 0px;
+  --dark: #211b3e;
+  --blue-grey: #8d8b97;
+  --sapphire: #3b2a98;
+  --light-mustard: #ffca59;
+  --pale-grey: #f8f7fa;
+  --pale-grey-two: #eeecf9;
+  --pale-grey-three: #fbfbfd;
+  --dusk: #585371;
+  --cloudy-blue: #c0becd;
+  --turquoise-blue: #00c3c0;
+  --white: #ffffff;
+  --blueberry-30: rgba(64, 48, 146, 0.3);
+  --turquoise-blue-three: #00afcb
+}
+
+.main {
+    display: flex;
+}
+
+.sidebar {
+    /* border: 1px solid black; */
+    padding: 20px;
+    margin: 10px;
+    width: 400px;
+}
+
+input {
+    border-radius: 10px;
+    width: 300px;
+    height: 25px;
+    padding: 10px;
+    font-size: 15px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+  }
+
+  .Title {
+    font-family: ITCAvantGardePro;
+    font-size: 35px;
+    margin-bottom: 10px;
+  }
+
+  .sideAns {
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 22px;
+  }
+
+  .sidesubmit {
+    font-family: ITCAvantGardePro;
+    font-size: 22px;
+    padding : 10px;
+    border-radius: 10px;
+    margin-top: 25px;
+  }
+
+
+
+
+
+
+
+
+  .queans {
+    margin: 0 5vw;
+    margin-top: 15px;
+  }
+  
+  .queans h1{
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 26px;
+  }
+  
+  .queanscards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 35px;
+  }
+  
+  .card {
+    /* height: 400px; */
+    width: 417px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card img {
+    width: 100%;
+    height: 236px;
+    object-fit: cover;
+  }
+  
+  .card h3{
+    text-align: center;
+    padding: 3px;
+    font-size: 18px;
+  }
+
+  .q{
+    font-family: ITCAvantGardePro;
+    font-size: 25px;
+  }
+
+  .qclassify {
+      background-color: yellow;
+      border-radius: 10px;
+      padding: 10px;
+      display: block;
+      font-family: ITCAvantGardePro;
+      font-size: 25px;
+      text-align: center;
+  }
+
+  .ans{
+    font-family: ITCAvantGardePro-Bk;
+    font-size: 18px;
+  }
+
+  .ans {
+      margin: 10px;
+  }
